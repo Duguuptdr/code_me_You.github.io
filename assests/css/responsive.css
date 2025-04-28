@@ -134,6 +134,10 @@
         width: 100px;
         height: 50px;
     }
+
+    .sectionFrom{
+        justify-content: left;
+    }
 }
 
 @media (min-width: 599px) {}
