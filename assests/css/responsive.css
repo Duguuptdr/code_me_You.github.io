@@ -47,6 +47,11 @@
     .image-banner2 img {
         padding: 20px;
     }
+
+ .sectionFrom{
+        justify-content: left;
+    }
+    
     .slide {
         flex-direction: column;
         gap: 0;
@@ -135,9 +140,7 @@
         height: 50px;
     }
 
-    .sectionFrom{
-        justify-content: left;
-    }
+   
 }
 
 @media (min-width: 599px) {}
