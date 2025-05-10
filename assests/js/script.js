@@ -324,7 +324,7 @@ document.getElementById('question-btn').addEventListener('click', function() {
 
 function downloadPDF() {
     const link = document.createElement('a');
-    link.href = './Durgesh Resume.1'; // Replace this with your actual PDF file path
+    link.href = './Durgesh Resume.1.pdf'; // Replace this with your actual PDF file path
     link.download = 'My_CV.pdf';     // This will be the filename after download
     document.body.appendChild(link);
     link.click();
